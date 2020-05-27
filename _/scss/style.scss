@@ -1,0 +1,27 @@
+@import 'base';
+
+main {
+  margin: 0 auto;
+  display: flex;
+
+  .animation-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: $content-width;
+    margin: 15px auto;
+  }
+
+  .video-container{
+    width: 90%;
+
+    @media screen and (max-width: $break) {
+      width: 100%;
+    }
+  }
+
+  #animation-video{
+    width: 100%;
+  }
+}

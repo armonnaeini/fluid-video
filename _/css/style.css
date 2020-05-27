@@ -1,0 +1,16 @@
+main {
+  margin: 0 auto;
+  display: flex; }
+  main .animation-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 15px auto; }
+  main .video-container {
+    width: 90%; }
+    @media screen and (max-width: 550px) {
+      main .video-container {
+        width: 100%; } }
+  main #animation-video {
+    width: 100%; }

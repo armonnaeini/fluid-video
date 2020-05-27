@@ -1,0 +1,10 @@
+{
+  "name": "vermilion_40th_video",
+  "version": "0.1.0",
+  "description": "Web implementation for Vermilion's 40th anniversary animation",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
